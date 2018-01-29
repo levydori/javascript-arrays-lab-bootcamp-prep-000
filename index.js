@@ -30,6 +30,7 @@ function appendKitten(kitten) {
   return [...kittens, kitten]
 }
 
-function appendKitten(kitten) {
-  return [...kittens, kitten]
+function removeLastKitten(kitten) {
+  var new_arr = kittens.slice(-1)
+  return new_arr
 }
