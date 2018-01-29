@@ -7,3 +7,8 @@ function Arrays() {
 function kittens() {
   return ['Milo', 'Otis', 'Garfield']
 }
+
+function destructivelyAppendKitten(arr, newElem) {
+  arr.push(newElem)
+  return arr
+}
