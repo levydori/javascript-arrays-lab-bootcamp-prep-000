@@ -8,7 +8,6 @@ function destructivelyAppendKitten(kitten) {
 }
 
 function destructivelyPrependKitten(kitten) {
-  kittens.shift(kitten)
   kittens.pop()
   return kittens
 }
